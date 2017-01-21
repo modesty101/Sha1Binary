@@ -24,13 +24,12 @@ public class Sha1Binary {
 			System.out.print((char) content);
 		}
 		*/
-		System.out.println("==============");
 		byte[] readBuf = new byte[fis.available()];
 		while (fis.read(readBuf) != -1) {
 
 		}
 		String re = new String(readBuf);
-		System.out.println(re); // Ãâ·Â
+		System.out.println(re);
 
 		fis.close();
 		
